@@ -6,4 +6,4 @@
 <br>
 <br>
 
-<img width="1294" height="692" alt="Screenshot from 2025-10-19 06-13-37" src="https://github.com/user-attachments/assets/796c1414-3b51-4815-94c8-defc2bf7293d" />
+<img width="1297" height="695" alt="Screenshot from 2025-10-19 15-04-47" src="https://github.com/user-attachments/assets/b798aa66-8c4a-45b7-bfb6-26103ca03846" />
