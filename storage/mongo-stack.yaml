@@ -21,8 +21,7 @@ spec:
       volumes:
         - name: mongo-persistent-storage
           persistentVolumeClaim:
-            claimName: mongo-vpc
-
+            claimName: mongo-pvc
 ---
 kind: Service
 apiVersion: v1
