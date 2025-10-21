@@ -4,7 +4,8 @@
 <img width="1651" height="981" alt="Untitled Diagram-Page-5-Page-5 drawio" src="https://github.com/user-attachments/assets/57afa9c1-f15e-4a5b-b354-9a561e2d4f48" />
 
 <br>
-<br>
+<br><img width="1104" height="391" alt="Screenshot from 2025-10-21 08-22-12" src="https://github.com/user-attachments/assets/cf71e05c-06aa-43d9-8bce-01f97246f28a" />
+
 <br>
 
 ## Deployment of fleetman to a kubernates cluster on local ubuntu machine:
@@ -21,3 +22,4 @@
 
 ## Deplyment of fleetman to aws using Kops to create the cluster:
 <img width="1074" height="136" alt="Screenshot from 2025-10-21 07-59-51" src="https://github.com/user-attachments/assets/59c3b81f-67c7-4d8e-bf1a-ce7b031f969d" />
+<img width="1104" height="391" alt="Screenshot from 2025-10-21 08-22-12" src="https://github.com/user-attachments/assets/1ca60fdd-c3f6-464f-884f-19ea800147e9" />
