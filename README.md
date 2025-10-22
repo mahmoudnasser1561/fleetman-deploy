@@ -25,3 +25,6 @@
 
 #### deploying the workloads to the cluster
 <img width="1281" height="643" alt="Screenshot from 2025-10-22 07-14-30" src="https://github.com/user-attachments/assets/20d6cb39-a9b5-4944-9162-503660b578ea" />
+
+#### making it more resilient by replicating the front-end service
+<img width="1166" height="170" alt="image" src="https://github.com/user-attachments/assets/6d6800e7-23d3-4856-a399-7ae41ff46fe9" />
