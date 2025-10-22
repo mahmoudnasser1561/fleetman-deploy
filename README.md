@@ -19,5 +19,9 @@
 <br>
 
 ## Deplyment of fleetman to aws using Kops to create the cluster:
+#### Getting the cluster ready 
 <img width="1074" height="136" alt="Screenshot from 2025-10-21 07-59-51" src="https://github.com/user-attachments/assets/59c3b81f-67c7-4d8e-bf1a-ce7b031f969d" />
 <img width="1104" height="391" alt="Screenshot from 2025-10-21 08-22-12" src="https://github.com/user-attachments/assets/1ca60fdd-c3f6-464f-884f-19ea800147e9" />
+
+#### deploying the workloads to the cluster
+<img width="1281" height="643" alt="Screenshot from 2025-10-22 07-14-30" src="https://github.com/user-attachments/assets/20d6cb39-a9b5-4944-9162-503660b578ea" />
