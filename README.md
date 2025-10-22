@@ -18,13 +18,9 @@
 <br>
 <br>
 
-## Deplyment of fleetman to aws using Kops to create the cluster:
+## Deplyment of fleetman to aws using EKS to create the cluster:
 #### Getting the cluster ready 
-<img width="1074" height="136" alt="Screenshot from 2025-10-21 07-59-51" src="https://github.com/user-attachments/assets/59c3b81f-67c7-4d8e-bf1a-ce7b031f969d" />
-<img width="1104" height="391" alt="Screenshot from 2025-10-21 08-22-12" src="https://github.com/user-attachments/assets/1ca60fdd-c3f6-464f-884f-19ea800147e9" />
+<img width="1027" height="364" alt="image" src="https://github.com/user-attachments/assets/ff98ab7d-6941-4fda-99de-b5dc0149e5f4" />
+<img width="1018" height="62" alt="image" src="https://github.com/user-attachments/assets/3c8be7ca-4b67-44ad-85c6-2bf830543517" />
 
-#### deploying the workloads to the cluster
-<img width="1281" height="643" alt="Screenshot from 2025-10-22 07-14-30" src="https://github.com/user-attachments/assets/20d6cb39-a9b5-4944-9162-503660b578ea" />
 
-#### making it more resilient by replicating the front-end service
-<img width="1166" height="170" alt="image" src="https://github.com/user-attachments/assets/6d6800e7-23d3-4856-a399-7ae41ff46fe9" />
