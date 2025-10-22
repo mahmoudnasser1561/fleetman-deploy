@@ -23,4 +23,9 @@
 <img width="1027" height="364" alt="image" src="https://github.com/user-attachments/assets/ff98ab7d-6941-4fda-99de-b5dc0149e5f4" />
 <img width="1018" height="62" alt="image" src="https://github.com/user-attachments/assets/3c8be7ca-4b67-44ad-85c6-2bf830543517" />
 
+#### Deployed successfully and pods are healthy
+<img width="1018" height="151" alt="image" src="https://github.com/user-attachments/assets/1ccb73bc-971b-4a4b-8794-132d5ed1eca7" />
+
+# View in the browser 
+<img width="1291" height="652" alt="image" src="https://github.com/user-attachments/assets/7d01144d-4883-4306-ace9-0a349b3c010c" />
 
