@@ -29,3 +29,6 @@
 # View in the browser 
 <img width="1291" height="652" alt="image" src="https://github.com/user-attachments/assets/7d01144d-4883-4306-ace9-0a349b3c010c" />
 
+
+# Fully Deployed + alerting + monitoring + logging
+<img width="1299" height="347" alt="Screenshot from 2025-10-27 20-24-27" src="https://github.com/user-attachments/assets/2a694656-6698-44b2-93ab-8e0e9ca7651d" />
