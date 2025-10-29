@@ -1,10 +1,18 @@
 # Fleetman Deploy — Microservices-Based Vehicle Tracking System
-**Fleetman** is a scalable tracking system designed for shipping and logistics companies. It orchestrates multiple loosely coupled microservices to monitor, manage, and visualize live fleet operations in real time.
-
+**Fleetman** is a microservices-based fleet tracking system built with Kubernetes. It enables real-time vehicle tracking, live data visualization, and scalable deployment both locally and on AWS EKS. Designed for logistics companies, Fleetman showcases cloud-native architecture, observability, and cost-optimized infrastructure design.
 <img width="1651" height="981" alt="Untitled Diagram-Page-5-Page-5 drawio" src="https://github.com/user-attachments/assets/57afa9c1-f15e-4a5b-b354-9a561e2d4f48" />
 
 <br>
 <br>
+
+## Tech Stack
+- **Backend:** Spring Boot microservices
+- **Frontend:** Angular (Fleetman Web App)
+- **Database:** MongoDB
+- **Messaging:** ActiveMQ
+- **Containerization:** Docker
+- **Orchestration:** Kubernetes / AWS EKS
+- **Monitoring & Logging:** Prometheus, Grafana, Kibana, elasticsearch, fleuntd
 
 ## Agenda
 - Project Structure
@@ -41,8 +49,8 @@ The database is mounted on an external storage volume to ensure persistence and 
 <img width="1018" height="62" alt="image" src="https://github.com/user-attachments/assets/3c8be7ca-4b67-44ad-85c6-2bf830543517" />
 
 ## Infrastructure Configurations
-- Cluster: I used eksctl installed on an bootstraper EC2 instance on AWS to create a lightweight cluster (made sure to adjust types and sizes of instances to        optimize cost) and enabled ssh connection  on it only from IP. I then generated a configuration file (config) for future use.
-then I allowed public access for web-app instance which acting as a (front-end loadbalancer).
+- Cluster: I used eksctl installed on an bootstraper EC2 instance on AWS to create a lightweight cluster (made sure to adjust types and sizes of instances to optimize costs) and enabled ssh connection  on it only from IP. generated a configuration file (config) for future use.
+snf I allowed public access for web-app instance which acting as a (front-end loadbalancer).
 
 - Then I provisioned a dynamic EBS cloud volume on AWS to keep Fleetman’s MongoDB data secure and always available, configuring IAM roles and policies to enable seamless data persistence and reliability.
 
