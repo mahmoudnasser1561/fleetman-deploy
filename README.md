@@ -10,6 +10,7 @@
 - Project Structure
 - Deployment of fleetman to a kubernates cluster on local ubuntu machine
 - Deployment of fleetman to an AWS EKS cluster
+- Infrastructure Configurations
 - Monitoring & Obeservability & Log Management
 
 ## Project Structure
@@ -38,6 +39,12 @@ The database is mounted on an external storage volume to ensure persistence and 
 #### Getting the cluster ready 
 <img width="1027" height="364" alt="image" src="https://github.com/user-attachments/assets/ff98ab7d-6941-4fda-99de-b5dc0149e5f4" />
 <img width="1018" height="62" alt="image" src="https://github.com/user-attachments/assets/3c8be7ca-4b67-44ad-85c6-2bf830543517" />
+
+## Infrastructure Configurations
+- Cluster: I used eksctl installed on an bootstraper EC2 instance on AWS to create a lightweight cluster (made sure to adjust types and sizes of instances to        optimize cost) and enabled ssh connection  on it only from IP. I then generated a configuration file (config) for future use.
+then I allowed public access for web-app instance which acting as a (front-end loadbalancer).
+
+- Then I provisioned a dynamic EBS cloud volume on AWS to keep Fleetman’s MongoDB data secure and always available, configuring IAM roles and policies to enable seamless data persistence and reliability.
 
 ##### Deployed successfully and pods are healthy
 <img width="1018" height="151" alt="image" src="https://github.com/user-attachments/assets/1ccb73bc-971b-4a4b-8794-132d5ed1eca7" />
