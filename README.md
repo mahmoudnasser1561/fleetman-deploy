@@ -49,8 +49,8 @@ The database is mounted on an external storage volume to ensure persistence and 
 <img width="1018" height="62" alt="image" src="https://github.com/user-attachments/assets/3c8be7ca-4b67-44ad-85c6-2bf830543517" />
 
 ## Infrastructure Configurations
-- Cluster: I used eksctl installed on an bootstraper EC2 instance on AWS to create a lightweight cluster (made sure to adjust types and sizes of instances to optimize costs) and enabled ssh connection  on it only from IP. generated a configuration file (config) for future use.
-snf I allowed public access for web-app instance which acting as a (front-end loadbalancer).
+- Cluster: I used eksctl installed on an bootstraper EC2 instance on AWS to create a lightweight cluster (made sure to adjust type and size of instances to optimize costs) and enabled ssh connection  on the bootstrap EC2 only from my IP. generated a configuration file (config) for future use.
+and I allowed public access for web-app instance which acting as a (front-end loadbalancer).
 
 - Then I provisioned a dynamic EBS cloud volume on AWS to keep Fleetman’s MongoDB data secure and always available, configuring IAM roles and policies to enable seamless data persistence and reliability.
 
