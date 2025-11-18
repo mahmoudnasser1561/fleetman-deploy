@@ -60,8 +60,13 @@ and I allowed public access for web-app instance which acting as a (front-end lo
 #### View in the browser 
 <img width="1291" height="652" alt="image" src="https://github.com/user-attachments/assets/7d01144d-4883-4306-ace9-0a349b3c010c" />
 
-## Monitoring & Obeservability & Log Management
-full Monitoring & Logging stack is [here](https://github.com/mahmoudnasser1561/fleetman-monitoring) 
 
 #### Fully Deployed + alerting + monitoring + logging
 <img width="1299" height="347" alt="Screenshot from 2025-10-27 20-24-27" src="https://github.com/user-attachments/assets/2a694656-6698-44b2-93ab-8e0e9ca7651d" />
+<img width="1523" height="1491" alt="fleetman_architecture" src="https://github.com/user-attachments/assets/0240e677-b608-4a30-ab8c-bad0243e9f83" />
+<img width="873" height="472" alt="image" src="https://github.com/user-attachments/assets/ccfabf77-ff5f-459e-82cd-6b986fcdf162" />
+
+---
+
+## Monitoring & Obeservability & Log Management
+Full Monitoring & Logging Dashboards are [here](https://github.com/mahmoudnasser1561/fleetman-monitoring) 
